@@ -1,0 +1,21 @@
+@media screen and (max-width: 1024px){
+    .bolinha-carrinho{
+        right: 34px;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .carrinho{
+        width: 60%;
+    }
+
+    .logo-carrinho img{
+        width: 150px;
+        margin-top: 20px;
+    }
+
+    .container-lista{
+        height: 60%;
+    }
+}
