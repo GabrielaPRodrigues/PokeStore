@@ -18,4 +18,18 @@
     .container-lista{
         height: 60%;
     }
+
+    .modal{
+        display: block;
+        width: 100%;
+        height: 400px;
+    }
+
+    .modal-body img{
+        width: 100%;
+    }
+
+    .modal-footer{
+        padding: 0;
+    }
 }
