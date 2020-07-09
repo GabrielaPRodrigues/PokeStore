@@ -31,4 +31,12 @@
     .modal-footer{
         padding: 0;
     }
+
+    .lista-cards h4{
+        font-size: 1.2rem;
+    }
+
+    .lista-cards p{
+        font-size: 12px;
+    }
 }
