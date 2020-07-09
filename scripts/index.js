@@ -120,5 +120,13 @@ function calculaTotal(){
     return total.toFixed(2).replace('.', ',');
 }
 
+function zeraCarrinho(){
+    carrinho = [];
+    renderizaCarrinho(carrinho);
+    fecharAbrirCarrinho(false);
+    totalCarrinho.textContent = '';
+    bolinhaCarrinho.textContent = carrinho.length;
+}
+
 fetchPokemon();
 
